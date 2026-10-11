@@ -1,0 +1,106 @@
+.features {
+  background-color: #FDFBF2;
+  padding: 5rem 1rem;
+  position: relative;
+}
+
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.features-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.features-description {
+  font-size: 1.125rem;
+  color: #555555;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.feature-card {
+  background-color: #FDFBF2;
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid #e8ddd4;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-card:hover {
+  transform: translateY(-3px);
+  border-color: #DCD3FF;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.feature-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0.75rem;
+}
+
+.feature-description {
+  font-size: 0.875rem;
+  color: #555555;
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+
+@media (min-width: 768px) {
+  .features {
+    padding: 6rem 1rem;
+  }
+
+  .features-title {
+    font-size: 3rem;
+  }
+
+  .feature-card {
+    padding: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .features {
+    padding: 8rem 1rem;
+  }
+
+  .features-title {
+    font-size: 3.5rem;
+  }
+
+  .features-grid {
+    gap: 2.5rem;
+  }
+}
