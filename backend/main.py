@@ -20,6 +20,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "https://ai-job-copilot-283lsw196-harsha-314b.vercel.app",
+        "https://ai-job-copilot-5j85.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],
